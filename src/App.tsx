@@ -143,7 +143,7 @@ function App() {
           <div className="persional_details">
             <div className="col1">
                 <span style={{color:theme.textcolor}} className="location"><img src={Location} alt="" className="location_image" /> {state.data.location ?? "Not Available"}</span>
-                <span style={{color:theme.textcolor}} className="blog"><img src={website} alt="" className="blog_image" /> {state.data.blog ==  "" ? state.data.blog?state.data.blog :"Not Available":"Not Available"}</span>
+                <span style={{color:theme.textcolor}} className="blog"><img src={website} alt="" className="blog_image" /> {state.data.blog ===  "" ? state.data.blog?state.data.blog :"Not Available":"Not Available"}</span>
             </div>
             <div className="col2">
             <span style={{color:theme.textcolor}} className="twitter"><img src={twitter} alt="" className="twitter_image" /> { state.data.twitter_username ?? "Not Available"}</span>
