@@ -111,7 +111,7 @@ function App() {
         </div>
         <div className="details" style={{backgroundColor:theme.element}}>
         { state.error?(
-          <span style={{alignSelf:"center",marginTop:"10vh"}}> User Not found </span>
+          <span style={{alignSelf:"center",marginTop:"10vh",color:theme.textcolor}}> User Not found </span>
         ) : (
           <>
         <div className="first_row">
