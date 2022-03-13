@@ -94,7 +94,7 @@ function App() {
     <div className="App" style={{backgroundColor:theme.background}}>
       <div className="content">
         <div className="header">
-          <span className="title" style={{color:theme.textcolor,fontSize:window.innerWidth < 600?"6vw":"2vw"}}>devfinder</span>
+          <span className="header_title" style={{color:theme.textcolor}}>devfinder</span>
           <div className="darkmode"  onClick={() =>setDarkmode(!darkmode)}>
             <span style={{color:theme.textcolor}} className="b_text">{darkmode?"LIGHT":"DARK"}</span>
             <img src={darkmode?sun:moon} alt="" className="dark_icon" />
